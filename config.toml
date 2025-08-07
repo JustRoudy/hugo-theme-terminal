@@ -2,3 +2,33 @@
   [module.hugoVersion]
     extended = true
     min = '0.90.0'
+
+baseurl = "https://roudy.xyz/"
+languageCode = "en-us"
+theme = "hugo-theme-terminal"
+pagination.pagerSize = 5
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = false
+
+[languages]
+  [languages.en]
+    title = "Roudy"
+    subtitle = "idk"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Terminal"
+      logoHomeLink = "/"
+
+
